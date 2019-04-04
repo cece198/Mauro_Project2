@@ -5,25 +5,17 @@ body,html {
 
 body{
     color: black;
-    background-color:pink;
+    background-color:#fad8de;
     font-family:monospace;
 }
 
-form{
-    background-image: linear-gradient(pink, yellow);
-}
-
-
 .jumbotron-background-image{
-    background-image:linear-gradient(rgba(0,0,0,0.60),
-    rgba(0, 0, 0, .25)), 
-    url("/background/colorfulBeach.jpg");
+    background-image:url("/background/colorfulBeach.jpg");
   
     height: 30%;
 
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
 }
 
@@ -34,26 +26,6 @@ form{
     color:white;
     border:10px solid white;
 }
-
-/* width */
-::-webkit-scrollbar {
-    width: 15px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: rgb(65, 212, 223); 
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: rgb(47, 159, 167); 
-  }
 
   .pages{
       color:white;

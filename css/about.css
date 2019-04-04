@@ -4,20 +4,18 @@ body,html {
 }
 
 body{
-    background-color: rgba(235, 161, 228, 0.281);
+    background-color: #a7519e;
     font-family:monospace;
+    position:relative;
 }
 
 .jumbotron-background-image{
-    background-image:linear-gradient(rgba(0,0,0,0.60),
-    rgba(0, 0, 0, .25)), 
-    url("/background/colorfulBeach.jpg");
+    background-image:url("/background/colorfulBeach.jpg");
   
     height: 30%;
 
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
 }
 
@@ -30,12 +28,12 @@ body{
 
 h2{
     text-align: center; 
-    color: rgb(95, 91, 91);
+    color: white;
 }
 
 .media{
     margin-left:20px;
-    color: rgb(107, 103, 103);
+    color: white;
 }
 
 .bottom-of-page{

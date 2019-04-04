@@ -9,15 +9,12 @@ body{
 }
 
 .jumbotron-background-image{
-    background-image:linear-gradient(rgba(0,0,0,0.60),
-    rgba(0, 0, 0, .25)), 
-    url("/background/colorfulBeach.jpg");
+    background-image:url("/background/colorfulBeach.jpg");
   
     height: 30%;
 
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
 }
 
@@ -31,4 +28,12 @@ body{
 
 .bottom-of-page{
     background-color:#e3f2fd;;
+  }
+
+  .row{
+      margin-left:55px;
+  }
+
+  h4{
+      text-align: center;
   }
