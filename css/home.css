@@ -1,0 +1,76 @@
+body,html {
+    height:100%;
+    margin:0;
+}
+
+body{
+    font-family:monospace;
+    background-color:rgb(189, 189, 243);
+}
+
+.jumbotron-background-image{
+    background-image:linear-gradient(rgba(0,0,0,0.60),
+    rgba(0, 0, 0, .25)), 
+    url("/background/colorfulBeach.jpg");
+  
+    height: 30%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.display-4{
+    font-family:monospace;
+    text-align: center;
+    position: relative;
+    color:white;
+    border:10px solid white;
+}
+
+.col-sm-4 img{
+    width:90%;
+    height:90%;
+    position: center;
+    margin-left:15px;
+}
+
+.bottom-of-page{
+  background-color:#e3f2fd;;
+}
+
+.carousel-inner img {
+    margin: auto;
+    width: 270px;
+    height: 400px;
+}
+.carousel-inner{
+    background-color:rgba(128, 128, 128, 0.61);
+    border: 5px solid white;
+}
+
+h3, h4{
+    text-align:center;
+    color:rgb(105, 102, 102);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(65, 212, 223); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(47, 159, 167); 
+  }
